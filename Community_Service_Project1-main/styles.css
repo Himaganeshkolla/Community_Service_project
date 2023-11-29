@@ -1,0 +1,18 @@
+.title_box1{
+    background-color: rgb(128,128,128,0.5);
+    height: 150px;
+    margin:13px;
+    border-radius: 20px;
+    text-indent: 5%;
+}
+.box2{
+    text-decoration: rgb(213, 213, 16);
+    background-color: rgb(128,128,128,0.5);
+    height: 600px;
+    text-indent:5%;
+    margin:13px;
+    border-radius: 20px;
+}
+.t1{
+    text-align:left;
+}

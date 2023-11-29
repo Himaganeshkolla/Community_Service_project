@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('nature.gif'); /* Change to the path of your GIF */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Set text color to white */
+        }
+
+        .title_box1 {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+        }
+
+        .title_box1 h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .title_box1 h4 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .box2 {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent white background */
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .box2 h2 {
+            margin-top: 0;
+        }
+
+        .button-container {
+            background-color: rgba(0, 0, 0, 0.5); /* More transparent black background */
+            border-radius: 15px; /* Curvy border */
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .box2 button {
+            display: inline-block; /* Set buttons to display side by side */
+            margin-right: 10px; /* Add some spacing between buttons */
+            color: #fff;
+            background-color: #c6662e; /* Orange color for buttons */
+            border: none;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 8px; /* Curvy border for buttons */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title_box1">
+       <h1>Plant Disease Solution</h1> 
+    </div>
+
+    <div class="box2">
+        <h2 class="t1">Select type of crop:</h2>
+        <div class="button-container">
+            <button onclick="window.location.href='paddy.html'">Paddy crop</button>
+            <button onclick="window.location.href='blackgram.html'">Blackgram crop</button>
+            <button onclick="window.location.href='wheat.html'">Wheat crop</button>
+            <button onclick="window.location.href='Sugarcane.html'">Sugarcane crop</button>
+            <button onclick="window.location.href='Greengram.html'">Greengram crop</button>
+            <button onclick="window.location.href='corn.html'">Corn crop</button>
+        </div>
+    </div>
+</body>
+</html>
